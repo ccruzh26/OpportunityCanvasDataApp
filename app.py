@@ -9,12 +9,11 @@ def main():
     # 1) Load the CSV from /content/OpportunityCanvas.csv (Colab path)
     #    If you're using a local or different path, adjust accordingly.
     # --------------------------------------------------------------------------
-    csv_path = "/content/OpportunityCanvas.csv"
-    try:
-        df = pd.read_csv(csv_path)
+ df = pd.read_csv("OpportunityCanvas.csv")
     except Exception as e:
         st.error(f"Error reading CSV from {csv_path}: {e}")
         return
+    
 
     # --------------------------------------------------------------------------
     # 2) Display the full DataFrame
