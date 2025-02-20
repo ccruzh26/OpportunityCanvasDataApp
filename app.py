@@ -18,7 +18,7 @@ def main():
     # --------------------------------------------------------------------------
     # 2) Display the full DataFrame
     # --------------------------------------------------------------------------
-    st.subheader("Full Data Table")
+    st.subheader("Opportunity Canvas")
     st.write(df)
 
     # --------------------------------------------------------------------------
@@ -122,7 +122,7 @@ def main():
         height=700,
         width=900,
         title={
-            "text": "Opportunity Canvas - Findings 3D Plot (Bubble Size = Total Impact)",
+            "text": "Opportunity Canvas - Thumbnail Findings 3D Plot (Bubble Size = Total Impact)",
             "x": 0.5,
             "xanchor": "center"
         }
