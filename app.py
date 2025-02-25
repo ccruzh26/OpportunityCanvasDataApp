@@ -2,9 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 
-def main():
-    st.title("3D Bubble Plot of Constraints and Impacts")
-
+   st.title("Opportunity Canvas - Thumbnail Findings 3D Plot")
+    st.subheader("Theme: AI in Healthcare")
+    st.write("Opportunity: Leverage AI (particularly agentic systems) in the healthcare industry, "
+             "to enhance healthcare efficiency, reduce costs, and improve outcomes for "
+             "core stakeholders in this space (patients, providers, and insurers).")
+    st.caption("Camila Cruz")  # Smaller text
     # --------------------------------------------------------------------------
     # 1) Load the CSV, handle errors
     # --------------------------------------------------------------------------
